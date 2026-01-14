@@ -1,0 +1,10 @@
+Goals of the Project:
+    Sentiment Classifier (XGBoost)
+    Intent Classifier (Logistic Regression)
+    Rag System (Vector DB)
+    LLM (GPT4)
+    Toxicity Filter (BERT)
+    A/B Test Logger (ML OPs)
+    Quality Validator
+
+We have to label the data in order to get the initial sentiment. Then we use this sentiment data to train the XGBoost sentiment classifier.
