@@ -1,0 +1,7 @@
+pandas
+scikit-learn
+transformers
+xgboost
+chromadb
+sentence-transformers
+joblib
