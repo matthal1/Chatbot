@@ -1,0 +1,301 @@
+text,intent
+"I absolutely love this product, it works great!",general_inquiry
+"The shipping was incredibly fast, thank you!",shipping
+Customer service was so helpful and kind.,general_inquiry
+Best purchase I've made all year.,general_inquiry
+The quality of the material is fantastic.,refund
+I am very happy with my order.,shipping
+"You guys are the best, thanks for the help!",technical_support
+"The app is so easy to use now, great update.",general_inquiry
+"My refund was processed immediately, very impressed.",refund
+I really appreciate the quick response.,general_inquiry
+The packaging was beautiful and secure.,shipping
+"Everything arrived perfect, thanks!",shipping
+I'm a huge fan of your new collection.,general_inquiry
+Your team went above and beyond for me.,general_inquiry
+"Excellent experience, will buy again.",general_inquiry
+The instructions were clear and easy to follow.,general_inquiry
+Finally a support team that actually listens.,general_inquiry
+"Wow, that was lighter/faster than I expected!",general_inquiry
+Great job on resolving my issue so quickly.,technical_support
+I love the new features you added.,general_inquiry
+This is the worst service I have ever received.,general_inquiry
+My package arrived completely crushed and broken.,shipping
+I've been waiting for a refund for weeks.,refund
+"Nobody is answering my emails, this is frustrating.",general_inquiry
+The product broke after one day of use.,account_issue
+I want to speak to a manager immediately.,general_inquiry
+Your website is broken and I can't log in.,general_inquiry
+"Shipping is taking forever, where is my stuff?",shipping
+I am very disappointed with the quality.,general_inquiry
+"Don't buy from here, it's a scam.",general_inquiry
+The size guide is completely wrong.,account_issue
+I was charged twice for the same item!,account_issue
+Rude customer service agent hung up on me.,general_inquiry
+The app keeps crashing on my phone.,technical_support
+I demand a full refund right now.,refund
+It's been a month and I still don't have my order.,shipping
+This doesn't look anything like the picture.,refund
+Stop sending me spam emails.,general_inquiry
+I can't believe how bad this experience was.,general_inquiry
+Your return policy is unfair and confusing.,general_inquiry
+How long does shipping normally take?,shipping
+What is your return policy?,general_inquiry
+Do you ship to Canada?,shipping
+I need to reset my password.,account_issue
+Where can I find the tracking number?,general_inquiry
+Is this item in stock?,general_inquiry
+Can I change my shipping address?,shipping
+How do I cancel my subscription?,account_issue
+What forms of payment do you accept?,general_inquiry
+Are you open on weekends?,general_inquiry
+Does this come with a warranty?,general_inquiry
+I have a question about my account.,general_inquiry
+How do I clear my cart?,general_inquiry
+Is there a physical store location?,general_inquiry
+Do you offer gift cards?,general_inquiry
+How do I contact support?,general_inquiry
+What is the difference between these two models?,account_issue
+I didn't receive a confirmation email.,general_inquiry
+Can I track my order without logging in?,account_issue
+When will the sale end?,general_inquiry
+"I absolutely love this product, it works great!",general_inquiry
+"The shipping was incredibly fast, thank you!",shipping
+Customer service was so helpful and kind.,general_inquiry
+Best purchase I've made all year.,general_inquiry
+The quality of the material is fantastic.,refund
+I am very happy with my order.,shipping
+"You guys are the best, thanks for the help!",technical_support
+"The app is so easy to use now, great update.",general_inquiry
+"My refund was processed immediately, very impressed.",refund
+I really appreciate the quick response.,general_inquiry
+The packaging was beautiful and secure.,shipping
+"Everything arrived perfect, thanks!",shipping
+I'm a huge fan of your new collection.,general_inquiry
+Your team went above and beyond for me.,general_inquiry
+"Excellent experience, will buy again.",general_inquiry
+The instructions were clear and easy to follow.,general_inquiry
+Finally a support team that actually listens.,general_inquiry
+"Wow, that was lighter/faster than I expected!",general_inquiry
+Great job on resolving my issue so quickly.,technical_support
+I love the new features you added.,general_inquiry
+This is the worst service I have ever received.,general_inquiry
+My package arrived completely crushed and broken.,shipping
+I've been waiting for a refund for weeks.,refund
+"Nobody is answering my emails, this is frustrating.",general_inquiry
+The product broke after one day of use.,account_issue
+I want to speak to a manager immediately.,general_inquiry
+Your website is broken and I can't log in.,general_inquiry
+"Shipping is taking forever, where is my stuff?",shipping
+I am very disappointed with the quality.,general_inquiry
+"Don't buy from here, it's a scam.",general_inquiry
+The size guide is completely wrong.,account_issue
+I was charged twice for the same item!,account_issue
+Rude customer service agent hung up on me.,general_inquiry
+The app keeps crashing on my phone.,technical_support
+I demand a full refund right now.,refund
+It's been a month and I still don't have my order.,shipping
+This doesn't look anything like the picture.,refund
+Stop sending me spam emails.,general_inquiry
+I can't believe how bad this experience was.,general_inquiry
+Your return policy is unfair and confusing.,general_inquiry
+How long does shipping normally take?,shipping
+What is your return policy?,general_inquiry
+Do you ship to Canada?,shipping
+I need to reset my password.,account_issue
+Where can I find the tracking number?,general_inquiry
+Is this item in stock?,general_inquiry
+Can I change my shipping address?,shipping
+How do I cancel my subscription?,account_issue
+What forms of payment do you accept?,general_inquiry
+Are you open on weekends?,general_inquiry
+Does this come with a warranty?,general_inquiry
+I have a question about my account.,general_inquiry
+How do I clear my cart?,general_inquiry
+Is there a physical store location?,general_inquiry
+Do you offer gift cards?,general_inquiry
+How do I contact support?,general_inquiry
+What is the difference between these two models?,account_issue
+I didn't receive a confirmation email.,general_inquiry
+Can I track my order without logging in?,account_issue
+When will the sale end?,general_inquiry
+"I absolutely love this product, it works great!",general_inquiry
+"The shipping was incredibly fast, thank you!",shipping
+Customer service was so helpful and kind.,general_inquiry
+Best purchase I've made all year.,general_inquiry
+The quality of the material is fantastic.,refund
+I am very happy with my order.,shipping
+"You guys are the best, thanks for the help!",technical_support
+"The app is so easy to use now, great update.",general_inquiry
+"My refund was processed immediately, very impressed.",refund
+I really appreciate the quick response.,general_inquiry
+The packaging was beautiful and secure.,shipping
+"Everything arrived perfect, thanks!",shipping
+I'm a huge fan of your new collection.,general_inquiry
+Your team went above and beyond for me.,general_inquiry
+"Excellent experience, will buy again.",general_inquiry
+The instructions were clear and easy to follow.,general_inquiry
+Finally a support team that actually listens.,general_inquiry
+"Wow, that was lighter/faster than I expected!",general_inquiry
+Great job on resolving my issue so quickly.,technical_support
+I love the new features you added.,general_inquiry
+This is the worst service I have ever received.,general_inquiry
+My package arrived completely crushed and broken.,shipping
+I've been waiting for a refund for weeks.,refund
+"Nobody is answering my emails, this is frustrating.",general_inquiry
+The product broke after one day of use.,account_issue
+I want to speak to a manager immediately.,general_inquiry
+Your website is broken and I can't log in.,general_inquiry
+"Shipping is taking forever, where is my stuff?",shipping
+I am very disappointed with the quality.,general_inquiry
+"Don't buy from here, it's a scam.",general_inquiry
+The size guide is completely wrong.,account_issue
+I was charged twice for the same item!,account_issue
+Rude customer service agent hung up on me.,general_inquiry
+The app keeps crashing on my phone.,technical_support
+I demand a full refund right now.,refund
+It's been a month and I still don't have my order.,shipping
+This doesn't look anything like the picture.,refund
+Stop sending me spam emails.,general_inquiry
+I can't believe how bad this experience was.,general_inquiry
+Your return policy is unfair and confusing.,general_inquiry
+How long does shipping normally take?,shipping
+What is your return policy?,general_inquiry
+Do you ship to Canada?,shipping
+I need to reset my password.,account_issue
+Where can I find the tracking number?,general_inquiry
+Is this item in stock?,general_inquiry
+Can I change my shipping address?,shipping
+How do I cancel my subscription?,account_issue
+What forms of payment do you accept?,general_inquiry
+Are you open on weekends?,general_inquiry
+Does this come with a warranty?,general_inquiry
+I have a question about my account.,general_inquiry
+How do I clear my cart?,general_inquiry
+Is there a physical store location?,general_inquiry
+Do you offer gift cards?,general_inquiry
+How do I contact support?,general_inquiry
+What is the difference between these two models?,account_issue
+I didn't receive a confirmation email.,general_inquiry
+Can I track my order without logging in?,account_issue
+When will the sale end?,general_inquiry
+"I absolutely love this product, it works great!",general_inquiry
+"The shipping was incredibly fast, thank you!",shipping
+Customer service was so helpful and kind.,general_inquiry
+Best purchase I've made all year.,general_inquiry
+The quality of the material is fantastic.,refund
+I am very happy with my order.,shipping
+"You guys are the best, thanks for the help!",technical_support
+"The app is so easy to use now, great update.",general_inquiry
+"My refund was processed immediately, very impressed.",refund
+I really appreciate the quick response.,general_inquiry
+The packaging was beautiful and secure.,shipping
+"Everything arrived perfect, thanks!",shipping
+I'm a huge fan of your new collection.,general_inquiry
+Your team went above and beyond for me.,general_inquiry
+"Excellent experience, will buy again.",general_inquiry
+The instructions were clear and easy to follow.,general_inquiry
+Finally a support team that actually listens.,general_inquiry
+"Wow, that was lighter/faster than I expected!",general_inquiry
+Great job on resolving my issue so quickly.,technical_support
+I love the new features you added.,general_inquiry
+This is the worst service I have ever received.,general_inquiry
+My package arrived completely crushed and broken.,shipping
+I've been waiting for a refund for weeks.,refund
+"Nobody is answering my emails, this is frustrating.",general_inquiry
+The product broke after one day of use.,account_issue
+I want to speak to a manager immediately.,general_inquiry
+Your website is broken and I can't log in.,general_inquiry
+"Shipping is taking forever, where is my stuff?",shipping
+I am very disappointed with the quality.,general_inquiry
+"Don't buy from here, it's a scam.",general_inquiry
+The size guide is completely wrong.,account_issue
+I was charged twice for the same item!,account_issue
+Rude customer service agent hung up on me.,general_inquiry
+The app keeps crashing on my phone.,technical_support
+I demand a full refund right now.,refund
+It's been a month and I still don't have my order.,shipping
+This doesn't look anything like the picture.,refund
+Stop sending me spam emails.,general_inquiry
+I can't believe how bad this experience was.,general_inquiry
+Your return policy is unfair and confusing.,general_inquiry
+How long does shipping normally take?,shipping
+What is your return policy?,general_inquiry
+Do you ship to Canada?,shipping
+I need to reset my password.,account_issue
+Where can I find the tracking number?,general_inquiry
+Is this item in stock?,general_inquiry
+Can I change my shipping address?,shipping
+How do I cancel my subscription?,account_issue
+What forms of payment do you accept?,general_inquiry
+Are you open on weekends?,general_inquiry
+Does this come with a warranty?,general_inquiry
+I have a question about my account.,general_inquiry
+How do I clear my cart?,general_inquiry
+Is there a physical store location?,general_inquiry
+Do you offer gift cards?,general_inquiry
+How do I contact support?,general_inquiry
+What is the difference between these two models?,account_issue
+I didn't receive a confirmation email.,general_inquiry
+Can I track my order without logging in?,account_issue
+When will the sale end?,general_inquiry
+"I absolutely love this product, it works great!",general_inquiry
+"The shipping was incredibly fast, thank you!",shipping
+Customer service was so helpful and kind.,general_inquiry
+Best purchase I've made all year.,general_inquiry
+The quality of the material is fantastic.,refund
+I am very happy with my order.,shipping
+"You guys are the best, thanks for the help!",technical_support
+"The app is so easy to use now, great update.",general_inquiry
+"My refund was processed immediately, very impressed.",refund
+I really appreciate the quick response.,general_inquiry
+The packaging was beautiful and secure.,shipping
+"Everything arrived perfect, thanks!",shipping
+I'm a huge fan of your new collection.,general_inquiry
+Your team went above and beyond for me.,general_inquiry
+"Excellent experience, will buy again.",general_inquiry
+The instructions were clear and easy to follow.,general_inquiry
+Finally a support team that actually listens.,general_inquiry
+"Wow, that was lighter/faster than I expected!",general_inquiry
+Great job on resolving my issue so quickly.,technical_support
+I love the new features you added.,general_inquiry
+This is the worst service I have ever received.,general_inquiry
+My package arrived completely crushed and broken.,shipping
+I've been waiting for a refund for weeks.,refund
+"Nobody is answering my emails, this is frustrating.",general_inquiry
+The product broke after one day of use.,account_issue
+I want to speak to a manager immediately.,general_inquiry
+Your website is broken and I can't log in.,general_inquiry
+"Shipping is taking forever, where is my stuff?",shipping
+I am very disappointed with the quality.,general_inquiry
+"Don't buy from here, it's a scam.",general_inquiry
+The size guide is completely wrong.,account_issue
+I was charged twice for the same item!,account_issue
+Rude customer service agent hung up on me.,general_inquiry
+The app keeps crashing on my phone.,technical_support
+I demand a full refund right now.,refund
+It's been a month and I still don't have my order.,shipping
+This doesn't look anything like the picture.,refund
+Stop sending me spam emails.,general_inquiry
+I can't believe how bad this experience was.,general_inquiry
+Your return policy is unfair and confusing.,general_inquiry
+How long does shipping normally take?,shipping
+What is your return policy?,general_inquiry
+Do you ship to Canada?,shipping
+I need to reset my password.,account_issue
+Where can I find the tracking number?,general_inquiry
+Is this item in stock?,general_inquiry
+Can I change my shipping address?,shipping
+How do I cancel my subscription?,account_issue
+What forms of payment do you accept?,general_inquiry
+Are you open on weekends?,general_inquiry
+Does this come with a warranty?,general_inquiry
+I have a question about my account.,general_inquiry
+How do I clear my cart?,general_inquiry
+Is there a physical store location?,general_inquiry
+Do you offer gift cards?,general_inquiry
+How do I contact support?,general_inquiry
+What is the difference between these two models?,account_issue
+I didn't receive a confirmation email.,general_inquiry
+Can I track my order without logging in?,account_issue
+When will the sale end?,general_inquiry

@@ -12,7 +12,7 @@ class ChatGenerator:
             model=self.model, 
             tokenizer=self.tokenizer, 
             max_length=256,
-            temperature=0.7,
+            temperature=0.3,
             do_sample=True,
             repetition_penalty=1.2
         )
@@ -20,14 +20,19 @@ class ChatGenerator:
     def generate_response(self, user_query, retrieved_context, sentiment, intent):
         # Construct the prompt
         prompt = f"""
-        Answer the following question based on the context provided. Be polite and helpful.
+        You are a helpful Customer Support Agent. Follow these rules significantly:
+        1. Answer the user's question using ONLY the Context provided below.
+        2. If the Context does not contain the answer, say "I don't have that information right now."
+        3. Do not make up facts.
+        4. Be polite and concise.
+
+        Context:
+        {retrieved_context}
         
         User Sentiment: {sentiment}
         User Intent: {intent}
-
-        Context: {retrieved_context}
         
-        Question: {user_query}
+        User Question: {user_query}
         
         Answer:
         """

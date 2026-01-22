@@ -4,6 +4,7 @@ import pandas as pd
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import LabelEncoder
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -51,10 +52,28 @@ def train_intent_model():
     print(f"   - Detected Intents: {list(encoder.classes_)}")
 
     # TRAIN MODEL
-    print("   - Training Logistic Regression...")
-    # Increased max_iter to 1000 to ensure convergence on larger real datasets
-    model = LogisticRegression(class_weight='balanced', solver='lbfgs', max_iter=1000)
-    model.fit(X, y)
+    # TRAIN MODEL
+    print("   - Training Logistic Regression with Grid Search...")
+    
+    lr_model = LogisticRegression(class_weight='balanced', max_iter=1000)
+    
+    param_grid = {
+        'C': [0.1, 1.0, 10.0],
+        'solver': ['lbfgs']
+    }
+
+    grid_search = GridSearchCV(
+        estimator=lr_model,
+        param_grid=param_grid,
+        scoring='accuracy',
+        cv=3,
+        verbose=1
+    )
+
+    grid_search.fit(X, y)
+    
+    print(f"   - Best Parameters: {grid_search.best_params_}")
+    model = grid_search.best_estimator_
 
     # SAVE ARTIFACTS
     print(f"   - Saving artifacts to {settings.ARTIFACTS_DIR}...")

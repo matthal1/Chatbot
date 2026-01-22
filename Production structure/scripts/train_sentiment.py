@@ -4,18 +4,16 @@ import pandas as pd
 import xgboost as xgb
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_sample_weight
 
-# Adds the project root to python path so we can import 'config'
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config import settings
 
 def train_sentiment_model():
     print("Starting Sentiment Training...")
 
-    # LOAD DATA
     # This points to the file created by your Auto-Labeling step
     data_path = os.path.join(settings.BASE_DIR, 'data', 'processed', 'automatically_labelled_support_data.csv')
     
@@ -52,15 +50,32 @@ def train_sentiment_model():
     sample_weights = compute_sample_weight(class_weight='balanced', y=y_train)
 
     # TRAIN XGBOOST
-    print("   - Training XGBoost Classifier...")
-    model = xgb.XGBClassifier(
+    # TRAIN XGBOOST
+    print("   - Training XGBoost Classifier with Grid Search...")
+    xgb_model = xgb.XGBClassifier(
         objective='multi:softmax',
         num_class=3,
-        n_estimators=50,
-        learning_rate=0.1,
-        max_depth=3
+        eval_metric='mlogloss'
     )
-    model.fit(X_train, y_train, sample_weight=sample_weights)
+
+    param_grid = {
+        'n_estimators': [50, 100],
+        'max_depth': [3, 5],
+        'learning_rate': [0.1, 0.2]
+    }
+
+    grid_search = GridSearchCV(
+        estimator=xgb_model,
+        param_grid=param_grid,
+        scoring='accuracy',
+        cv=3,
+        verbose=1
+    )
+
+    grid_search.fit(X_train, y_train, sample_weight=sample_weights)
+
+    print(f"   - Best Parameters based on Grid Search: {grid_search.best_params_}")
+    model = grid_search.best_estimator_
 
     # SAVE ARTIFACTS
     print(f"   - Saving artifacts to {settings.ARTIFACTS_DIR}...")
